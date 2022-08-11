@@ -1,0 +1,296 @@
+<resources>
+    <!-- TODO: Here you change your app name -->
+    <string name="app_name">Finaxe Money</string>
+
+    <!-- TODO: Here you change your app toolbar title -->
+    <string name="app_title">Finaxe Money</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_internet_body">You are not connected to the Internet</string>
+    <string name="no_internet_title">No Internet</string>
+
+    <string name="airplane">Airplane mode</string>
+    <string name="airplane_on">You have turned on the airplane mode.</string>
+
+    <string name="mobile">Mobile data</string>
+    <string name="wifi_on">Wifi</string>
+
+    <string name="turn_off">Please turn off</string>
+    <string name="turn_on">Please turn on</string>
+
+    <string name="freshchat_campaign_notification_channel_name">Campaign messages</string>
+
+    <!-- TODO: Replace the package name of your app -->
+    <string name="freshchat_file_provider_authority">mrswebmaker.mrs.provider</string>
+
+    <!-- TODO: Replace the name of your app and download app link -->
+    <string name="shareContent">"Addicted to PUBG? Want to make some cash out of it?? Try out MRS, eSports platform. Join Daily PUBG Matches &amp; Get Rewards on Each Kill you score.
+        Get Huge Prize on Getting Chicken Dinner. Just Download MRS Android App &amp; Register using the PromoCode given Below to Get 5 PlayCoins Free Signup Bonus.\n\nDownload Link: https://mrs.mrswebmaker.com\nPromo Code: "</string>
+    <string name="shareSub">Pay PUBG Mobile &amp; Earn Money</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Ad Mob Id-->
+    <!--  <string name="adAppId">ca-app-pub-1709999853464536~7724767922</string>-->
+    <!--  <string name="admob_Rewarded_Video_Ads">ca-app-pub-1709999853464536/2002146881</string>-->
+    <!--  <string name="admob_interstitial_id">ca-app-pub-1709999853464536/3315228550</string>-->
+    <!--  <string name="admob_banner_id">ca-app-pub-1709999853464536/3785522919</string>-->
+    <string name="adAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_Rewarded_Video_Ads">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/8691691433</string>
+    *
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- TODO: Replace your API key you obtained from google api console -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDR93buQLIIp_aOHdilHFC_J0uTh_GfqYU
+    </string>
+
+
+    <string name="forceUpdateNote">Note: In order to continue using the app, you must have to update it to the latest version.</string>
+    <string name="otp_text">We have sent 6 digit OTP on your given Mobile Number through SMS. Kindly check and enter it below to complete your Registration.</string>
+
+    <!-- TODO: Here you can change play coin, currency sign and tag, must use simple text or unicode -->
+    <string name="national_currency_sign">\u20B9</string>
+    <string name="national_currency_code">INR</string>
+    <string name="international_currency_sign">$</string>
+    <string name="international_currency_code">USD</string>
+    <string name="play_coin">Minimum Redeem PlayCoin is 50.</string>
+
+    <!-- TODO: Here you can set alert note which is show when add or redeem play coin -->
+    <string name="bank_minimum_redeem_playcoin_is_200_1_pla_coin_1_rs">Minimum Redeem PlayCoin is 200.\n1 PlayCoin = 1 INR.</string>
+    <string name="paypal_minimum_redeem_playcoin_is_100_60_playcoin_1_usd">Minimum Redeem PlayCoin is 100.\n60 PlayCoin = 1 USD.</string>
+    <string name="paytm_minimum_redeem_playcoin_is_50_1_playcoin_1_rs">Minimum Redeem PlayCoin is 50.\n1 PlayCoin = 1 INR.</string>
+    <string name="googlepay_minimum_redeem_playcoin_is_50_1_playcoin_1_rs">Minimum Redeem PlayCoin is 50.\n1 PlayCoin = 1 INR.</string>
+    <string name="phonepe_minimum_redeem_playcoin_is_50_1_playcoin_1_rs">Minimum Redeem PlayCoin is 50.\n1 PlayCoin = 1 INR.</string>
+    <string name="instamojo_minimum_amount_is_20_1_inr_1_playcoin">Minimum Amount is 20.\n1 INR = 1 PlayCoin.</string>
+    <string name="paypal_minimum_amount_is_5_1_usd_60_playcoin">Minimum Amount is 5.\n1 USD = 60 PlayCoin.</string>
+    <string name="paytm_minimum_amount_is_20_1_inr_1_playcoin">Minimum Amount is 20.\n1 INR = 1 PlayCoin.</string>
+
+    <!-- TODO: Here you can set alert note which is show in refer & reward screen. -->
+    <string name="invite_your_friends_on_app_using_your_promo_code_to_earn_10_playcoins_when_they_join_first_match_your_friends_also_get_5_playcoins_as_signup_bonus">Invite your friends on App using your Promo Code to Earn 10 PlayCoins when they join first match. Your friends also get 5 PlayCoins as Signup Bonus!</string>
+    <string name="note_60_playcoin_60_inr_or_1_usd">*Note: 60 PlayCoin = 60 INR or 1 USD.</string>
+    <string name="watch_videos_to_get_reward_after_every_12_hours">Watch videos to get reward after every 12 hours.</string>
+    <string name="note_watch_video_2_times_to_get_reward">*Note: watch video 2 times to get reward.</string>
+
+    <string name="win_prize">WIN PRIZE</string>
+    <string name="per_kill">PER KILL</string>
+    <string name="entry_fee">ENTRY FEE</string>
+    <string name="type">TYPE</string>
+    <string name="version">VERSION</string>
+    <string name="map">MAP</string>
+    <string name="watch_match">Watch Match</string>
+    <string name="joined">Joined</string>
+    <string name="join">JOIN</string>
+    <string name="spectate">Spectate</string>
+    <string name="play_now">Play Now</string>
+    <string name="results_coming_soon">Results Coming Soon!</string>
+    <string name="check_back_in_sometime">Check back in sometime...</string>
+    <string name="no_upcoming_matches">No upcoming matches!</string>
+    <string name="there_are_no_upcoming_matches_currently_ncheck_back_in_some_time">There are no upcoming matches currently. Check back in some time..</string>
+    <string name="no_ongoing_matches">No ongoing matches!</string>
+    <string name="there_are_no_ongoing_matches_currently_ncheck_back_in_some_time">There are no ongoing matches currently. Check back in some time...</string>
+    <string name="matches_played">Matches Played</string>
+    <string name="total_kills">Total Kills</string>
+    <string name="playcoin_won">PlayCoin Won</string>
+    <string name="account_holder_name">Account holder name</string>
+    <string name="account_number">Account number</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="phone_number">Phone number</string>
+    <string name="code">Code</string>
+    <string name="registered_name">Registered Name</string>
+    <string name="playcoin">PlayCoin</string>
+    <string name="play_coin_to_redeem">Play Coin to Redeem</string>
+    <string name="redeem">Redeem</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="email_id">Email Id</string>
+    <string name="phone_no">Phone No</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="messenger">Messenger</string>
+    <string name="live_chat_support">Live Chat Support</string>
+    <string name="our_address">Our Address</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="googlepay_number">GooglePay Number</string>
+    <string name="googlepay_name">GooglePay Name</string>
+    <string name="match_title">Match Title:</string>
+    <string name="entry_fee_">Entry Fee :</string>
+    <string name="available_playcoin_">Available PlayCoin :</string>
+    <string name="won_playcoin_">Won PlayCoin :</string>
+    <string name="you_don_t_have_sufficient_balance">You don\'t have sufficient balance</string>
+    <string name="join_now">JOIN NOW</string>
+    <string name="add_money">ADD MONEY</string>
+    <string name="full_name">Full Name</string>
+    <string name="my_contest">My Contest</string>
+    <string name="home">Home</string>
+    <string name="my_account">My Account</string>
+    <string name="there_are_no_transactions_yet">There are no transactions yet...</string>
+    <string name="refer_amp_earn"><![CDATA[Refer & Earn]]></string>
+    <string name="my_profile">PROFILE</string>
+    <string name="my_earning">EARN</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="my_statistics">My Statistics</string>
+    <string name="top_players">Top Players</string>
+    <string name="important_updates">Important Updates</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="faq">FAQ</string>
+    <string name="share_app">Share App</string>
+    <string name="logout">Logout</string>
+    <string name="participated">Participated</string>
+    <string name="account_verification">Account Verification</string>
+    <string name="get_otp_on_call">Get OTP on Call</string>
+    <string name="something_wrong">Something wrong...</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="instructions">Instructions</string>
+    <string name="no_new_pubg_accounts_allowed">No New PUBG Accounts Allowed</string>
+    <string name="default_match_notice">Default match notice</string>
+    <string name="i_agree">I AGREE</string>
+    <string name="private_match_text">private_match_text</string>
+    <string name="access_code">Access Code</string>
+    <string name="pubg_username">PUBG Username</string>
+    <string name="enter_pubg_username">Enter PUBG Username</string>
+    <string name="note_make_sure_you_enter_your_pubg_username_ign_and_not_character_id">Note: Make sure you enter your PUBG Username (IGN) and not Character ID.</string>
+    <string name="pubg_room_details">PUBG Room Details</string>
+    <string name="room_id">Room ID:</string>
+    <string name="room_password">Room Password:</string>
+    <string name="join_match_warning">Join Match Warning</string>
+    <string name="how_to_join_room_click_here">How to Join Room? Click Here</string>
+    <string name="play">PLAY</string>
+    <string name="forget">Forget</string>
+    <string name="please_don_t_cancel_wait_until_you_get_otp_from_us">Please don\'t cancel, Wait until you get otp from us.</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="warning">Please don\'t cancel, Wait until you get otp from us.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+    <string name="response_text">Response Text</string>
+    <string name="reset">Reset</string>
+    <string name="new_update_is_available">New Update is Available</string>
+    <string name="new_version_v1_5">New Version: v1.5</string>
+    <string name="updated_on_16_10_2018">Updated On: 16/10/2018</string>
+    <string name="what_s_new">What\'s New?</string>
+    <string name="later">LATER</string>
+    <string name="update">UPDATE</string>
+    <string name="type_">Type:</string>
+    <string name="version_">Version:</string>
+    <string name="map_">Map:</string>
+    <string name="match_type_">Match Type:</string>
+    <string name="match_schedule_">Match Schedule:</string>
+    <string name="winning_prize_">Winning Prize:</string>
+    <string name="per_kill_">Per Kill:</string>
+    <string name="prize_details">Prize Details</string>
+    <string name="about_this_match">About this Match</string>
+    <string name="participants">Participants</string>
+    <string name="load_participants">Load Participants</string>
+    <string name="position">Position</string>
+    <string name="winning">Winning</string>
+    <string name="register_your_squad">Register your Squad</string>
+    <string name="important_notes">Important Notes</string>
+    <string name="pubg_accounts_with_level_less_than_25_aren_t_allowed_to_participate_so_don_t_register_such_entries_such_account_will_be_kicked_from_the_room_and_refund_for_the_same_will_not_be_processed_n_make_sure_you_enter_your_pubg_username_ign_and_not_character_id">• PUBG Accounts with Level less than 25 aren\'t allowed to Participate. So don\'t register such entries. Such account will be kicked from the room and refund for the same will not be processed.  • Make sure you enter your PUBG Username (IGN) and not Character ID.</string>
+    <string name="reward_offer_paused">Reward Offer Paused!</string>
+    <string name="reward_offer_is_currently_under_maintenance_nstay_tuned_for_further_updates">Reward Offer is currently under maintenance.  Stay Tuned for further updates!</string>
+    <string name="watch_more_to_earn_more">Watch More to Earn More!</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="pubg_mobile_match_title">PUBG Mobile Match Title</string>
+    <string name="organised_on_dd_mm_yyyy_at_hh_mm_a">Organised on DD/MM/YYYY at HH:MM A</string>
+    <string name="special_notes">Special Notes</string>
+    <string name="winner_chicken_dinner">Winner Chicken Dinner</string>
+    <string name="kills">Kills</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Full Name as PAN </string>
+    <string name="email_address">Email Address</string>
+    <string name="pan_number">Pan Number</string>
+    <string name="aadhar_number">AADHAR Number</string>
+    <string name="transction">Transaction</string>
+
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="promo_code_optional">Promo Code (Optional)</string>
+    <string name="register">Authenticate</string>
+    <string name="i_agree_to">I have read and agreed to the</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="terms_of_service"> Terms of Service</string>
+    <string name="terms_privacy">Privacy Policy</string>
+
+    <string name="terms"><![CDATA[I have read and agreed to the terms & conditions and privacy policy ]]></string>
+
+    <string name="sign_in">SIGN IN</string>
+    <string name="referral_offer_paused">Referral Offer Paused!</string>
+    <string name="referral_offer_is_currently_under_maintenance_nstay_tuned_for_further_updates">Referral Offer is currently under maintenance.  Stay Tuned for further updates!</string>
+    <string name="refer_more_to_earn_more">Refer More to Earn More!</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="your_promo_code">Your Promo Code</string>
+    <string name="full_result">Full Result</string>
+    <string name="match_room_details">Match Room Details</string>
+    <string name="upcoming_username_and_password">Upcoming Username and Password</string>
+    <string name="room_id_">Room ID:</string>
+    <string name="room_password_">Room Password:</string>
+    <string name="no_participants_yet">No participants yet.</string>
+    <string name="refresh">Refresh</string>
+    <string name="phonepay_number">PhonePay number</string>
+    <string name="phonepay_name">PhonePay Name</string>
+    <string name="country_code">+91</string>
+    <string name="play_coins">Play Coin</string>
+    <string name="paytm_number">Paytm number</string>
+    <string name="paytm_name">Paytm Name</string>
+    <string name="amount_to_add">Amount to Add</string>
+    <string name="add">ADD</string>
+    <string name="paypal_email">PayPal Email</string>
+    <string name="paypal_name">PayPal Name</string>
+    <string name="view_more">View More</string>
+    <string name="deposited_">Deposited:</string>
+    <string name="winning_">Winning:</string>
+    <string name="you_can_redeem_only_winning_play_coin">You can redeem only winning play coin.</string>
+    <string name="no_stats_yet">No stats yet!</string>
+    <string name="go_and_join_some_matches">Go and join some matches...</string>
+    <string name="match_info">Match Info</string>
+    <string name="paid">Paid</string>
+    <string name="won">Won</string>
+    <string name="my_rewards_summary">My Rewards Summary</string>
+    <string name="rewards">Rewards</string>
+    <string name="earnings">Earnings</string>
+    <string name="my_rewards_list">My Rewards List</string>
+    <string name="date">Date</string>
+    <string name="my_referrals_summary">My Referrals Summary</string>
+    <string name="referrals">Referrals</string>
+    <string name="my_referrals_list">My Referrals List</string>
+    <string name="player_name">Player Name</string>
+    <string name="status">Status</string>
+    <string name="no_refers_yet">No Refers Yet.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="save">Save</string>
+    <string name="old_password">Old Password</string>
+    <string name="retype_new_password">Retype New Password</string>
+    <string name="successfully_updated">Successfully Updated.</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="reset_now">RESET NOW</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have">Don\'t have account?</string>
+    <string name="copyright">Design and Developed By MRSwebmaker</string>
+    <string name="my_ongoing">ONGOING</string>
+    <string name="my_result">RESULT</string>
+    <string name="info">Buy this App from Codecanyon only. MRSwebmaker Owned the copyright for this App. WhatsApp: +917710935578</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have">Already have an account?</string>
+    <string name="watch_ads_contex">watch reward video daily and earn Huge</string>
+    <string name="watch_ads_title"><![CDATA[Watch & Earn]]></string>
+    <string name="refer_contsxt">invite your friends on this app and earn Huge</string>
+    <string name="refer_title"><![CDATA[Refer & Earn]]></string>
+    <string name="default_notification_channel_id">199</string>
+
+
+
+
+
+</resources>

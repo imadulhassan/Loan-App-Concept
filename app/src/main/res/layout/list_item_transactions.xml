@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="4.0dip" android:layout_marginRight="5dp" android:layout_marginBottom="4.0dip" app:cardPreventCornerOverlap="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="5"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <LinearLayout android:orientation="vertical"
+                android:paddingLeft="2dp"
+                android:gravity="left" android:layout_width="0dp" android:layout_height="fill_parent" android:layout_weight="2.7">
+                <TextView android:singleLine="true" android:textColor="@color/successGreen" android:id="@+id/txnType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="pay_EklPO920MqDw4h" android:textAllCaps="true" android:fontFamily="@font/lato" />
+                <TextView android:singleLine="true" android:textStyle="normal" android:textColor="@color/successGreen" android:id="@+id/txnGateway" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" android:fontFamily="@font/lato" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="fill_parent"  android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txnRemark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:fontFamily="@font/lato"
+                    android:singleLine="true"
+                    android:text="Loan Applications"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_marginTop="5.0dip"
+                    android:id="@+id/txnAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:singleLine="true"
+                    android:text="₹ "
+                    android:textColor="@color/successGreen"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="fill_parent" android:layout_weight="1.2">
+                <TextView android:singleLine="true"
+                    android:gravity="center"
+                    android:textSize="12.0sp" android:layout_gravity="start" android:id="@+id/txnDate" android:layout_width="match_parent" android:layout_height="wrap_content"  android:text="24/10/2018" android:fontFamily="@font/lato" />
+                <TextView android:singleLine="true" android:textStyle="normal" android:textColor="@color/successGreen" android:id="@+id/txnStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Completed" android:fontFamily="@font/lato" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

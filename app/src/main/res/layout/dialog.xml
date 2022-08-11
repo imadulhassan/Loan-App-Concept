@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardCornerRadius="15sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_margin="20sp"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Select Payment Method "
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/upi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Upi"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/amazon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Amazon"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Billpay Web"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Gpay"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/phonePe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="PhonePe"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/phonePe_exists"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Check PhonePe"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpay_ready"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="GPay Ready"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

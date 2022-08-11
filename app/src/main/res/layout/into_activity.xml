@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.IntroActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/framelayout"
+        android:layout_above="@+id/line"
+        android:layout_height="match_parent"/>
+    <View
+        android:id="@+id/line"
+        android:background="@color/text_disabled_dark"
+        android:layout_above="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+
+    <include layout="@layout/tabs_layout"
+        android:id="@+id/tabs"
+        android:layout_alignParentBottom="true"
+        android:layout_height="?android:actionBarSize"
+        android:layout_width="match_parent"></include>
+</RelativeLayout>

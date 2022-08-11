@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_weight="2"
+    android:weightSum="3"
+    android:layout_height="?attr/actionBarSize">
+
+
+<RelativeLayout
+    android:layout_weight="1"
+    android:layout_alignParentLeft="true"
+    android:layout_toLeftOf="@+id/wall"
+    android:orientation="vertical"
+   android:id="@+id/loan"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_loan"
+        android:src="@drawable/loan"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+<TextView
+    android:paddingBottom="2dp"
+    android:fontFamily="@font/lato"
+    android:textSize="14dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:text="Loan"
+    android:layout_centerHorizontal="true"
+   android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"></TextView>
+</RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/repayment"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_repayment"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+           android:src="@drawable/repayment"
+            android:layout_above="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+        <TextView
+            android:paddingBottom="2dp"
+            android:fontFamily="@font/lato"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+           android:id="@+id/text2"
+            android:text="Repayment"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"></TextView>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/profile"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/text1"
+            android:src="@drawable/ic_person_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+        <TextView
+            android:paddingBottom="2dp"
+            android:fontFamily="@font/lato"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:id="@+id/text1"
+            android:text="Profile"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"></TextView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

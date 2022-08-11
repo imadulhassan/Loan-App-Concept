@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="17.0dip">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/heading"
+            android:fontFamily="@font/lato"
+            android:text="Personal Information"
+            android:layout_below="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/CustomTextInputLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:fontFamily="@font/lato"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:paddingLeft="7.0dip" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/CustomTextInputLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address"
+                android:fontFamily="@font/lato"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:paddingLeft="7.0dip" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etPasswordLayout"
+            style="@style/CustomTextInputLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/panNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pan_number"
+                android:imeOptions="actionNext"
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"
+
+                android:maxLength="20"
+                android:fontFamily="@font/lato"
+                android:paddingLeft="7.0dip" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etRePasswordLayout"
+            style="@style/CustomTextInputLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adharNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/aadhar_number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="12"
+                android:fontFamily="@font/lato"
+                android:paddingLeft="7.0dip" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            >
+            <Spinner
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:id="@+id/state"
+                android:layout_marginBottom="10dp"
+                ></Spinner>
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/rectangle"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:id="@+id/citilist"
+                ></Spinner>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardRL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="32.0dip">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:text="@string/register"
+                app:cornerRadius="16sp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true"
+            android:padding="@dimen/spacing_large"
+            android:visibility="gone" />
+</RelativeLayout>

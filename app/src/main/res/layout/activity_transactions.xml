@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/shimmer_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+            <include layout="@layout/list_item_shimmer_transaction" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <LinearLayout android:gravity="center_vertical|center_horizontal" android:orientation="vertical" android:id="@+id/noTxnLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_content" />
+        <TextView android:textSize="20.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="15.0dip" android:text="@string/there_are_no_transactions_yet" android:fontFamily="@font/lato" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/txnListRecyclerView"
+        android:paddingBottom="6.0dip"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5.0dip" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/card"
+        android:id="@+id/nav_transa"
+        android:title="Transactions" />
+
+    <item
+        android:icon="@drawable/card"
+        android:id="@+id/nav_term"
+        android:title="Terms &amp; Conditions" />
+
+    <item
+        android:icon="@drawable/card"
+        android:id="@+id/policy"
+        android:title="Privacy policy" />
+
+
+    <item
+        android:icon="@drawable/ic_share"
+        android:id="@+id/nav_share"
+        android:title="Share" />
+    <item
+        android:icon="@drawable/star"
+        android:id="@+id/nav_rate"
+        android:visible="false"
+        android:title="Rate" />
+
+    <item
+        android:icon="@drawable/ic_logout"
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+</menu>

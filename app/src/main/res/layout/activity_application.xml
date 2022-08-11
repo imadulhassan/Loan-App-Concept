@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/aplicationbg"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/lato"
+        android:text="Loan Application"
+        android:layout_below="@+id/iv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/cardlayout"
+    android:layout_below="@id/heading"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/lato"
+            android:text="Congratulation!"
+            android:layout_below="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/lato"
+            android:text="Get the following in-principle loan amount"
+            android:layout_below="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/cyan_100"
+                    android:textSize="15sp"
+                    android:padding="3dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/lato"
+                    android:text="Loan Amount"
+                    android:layout_below="@+id/iv_back"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"></TextView>
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:gravity="right"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="@font/lato"
+                        android:text="₹"
+                        android:layout_below="@+id/iv_back"
+                        android:layout_width="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:paddingTop="3dp"
+                        android:id="@+id/amount"
+                        android:paddingBottom="3dp"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="@font/lato"
+                        android:text="9800"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/iv_back"
+                        android:layout_width="0dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/cyan_100"
+                    android:textSize="15sp"
+                    android:padding="3dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/lato"
+                    android:text="Loan Term"
+                    android:layout_below="@+id/iv_back"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                                android:gravity="right"
+                           android:layout_gravity="center"
+                            android:padding="3dp"
+                                android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/lato"
+                            android:text="60"
+                            android:layout_below="@+id/iv_back"
+                            android:layout_width="0dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_height="wrap_content"></TextView>
+                            <TextView
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignParentTop="true"
+                                android:fontFamily="@font/lato"
+                                android:text="Months"
+                                android:layout_below="@+id/iv_back"
+                                android:layout_width="0dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_height="wrap_content"></TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cardlayout"
+        android:src="@drawable/cardgirl"
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"></ImageView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@id/img"
+        android:id="@+id/lay_servicefee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/text_primary_dark"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:fontFamily="@font/lato"
+            android:text="Member Loan Service Fee "
+            android:layout_below="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:textColor="@color/orange_200"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:fontFamily="@font/lato"
+            android:text="₹ 299"
+            android:layout_below="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+     <LinearLayout
+         android:layout_below="@+id/lay_servicefee"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_margin="10dp"
+         android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:weightSum="2"
+             android:layout_height="wrap_content">
+             <ImageView
+
+                 android:layout_gravity="center"
+                 android:layout_width="0dp"
+                 android:src="@drawable/point"
+                 android:layout_weight=".1"
+                 android:layout_height="wrap_content"></ImageView>
+             <TextView
+                 android:textColor="@color/text_disabled_dark"
+                 android:textSize="14sp"
+                 android:padding="2dp"
+                 android:fontFamily="@font/lato"
+                 android:text="You are only one step away from getting the loan amount"
+                 android:layout_below="@+id/iv_back"
+                 android:layout_weight="1.9"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"></TextView>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:weightSum="2"
+             android:layout_height="wrap_content">
+             <ImageView
+
+                 android:layout_gravity="center"
+                 android:layout_width="0dp"
+                 android:src="@drawable/point"
+                 android:layout_weight=".1"
+                 android:layout_height="wrap_content"></ImageView>
+             <TextView
+                 android:textColor="@color/text_disabled_dark"
+                 android:textSize="14sp"
+                 android:padding="2dp"
+                 android:fontFamily="@font/lato"
+                 android:text="Become a member and enjoy 3 months loan service provided by this platform"
+                 android:layout_below="@+id/iv_back"
+                android:layout_weight="1.9"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"></TextView>
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:weightSum="2"
+             android:layout_height="wrap_content">
+             <ImageView
+
+                 android:layout_gravity="center"
+                 android:layout_width="0dp"
+                 android:src="@drawable/point"
+                 android:layout_weight=".1"
+                 android:layout_height="wrap_content"></ImageView>
+             <TextView
+                 android:textColor="@color/text_disabled_dark"
+                 android:textSize="14sp"
+                 android:padding="2dp"
+                 android:fontFamily="@font/lato"
+                 android:text="The fee is used to determine your loan eligibilty"
+                 android:layout_below="@+id/iv_back"
+                 android:layout_weight="1.9"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"></TextView>
+
+
+         </LinearLayout>
+<!--         <LinearLayout-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:weightSum="2"-->
+<!--             android:layout_height="wrap_content">-->
+<!--             <ImageView-->
+
+<!--                 android:layout_gravity="center"-->
+<!--                 android:layout_width="0dp"-->
+<!--                 android:src="@drawable/point"-->
+<!--                 android:layout_weight=".1"-->
+<!--                 android:layout_height="wrap_content"></ImageView>-->
+<!--             <TextView-->
+<!--                 android:textColor="@color/text_disabled_dark"-->
+<!--                 android:textSize="14sp"-->
+<!--                 android:padding="2dp"-->
+<!--                 android:fontFamily="@font/lato"-->
+<!--                 android:text="Bank - level confidentioality to protext your information security"-->
+<!--                 android:layout_below="@+id/iv_back"-->
+<!--                 android:layout_weight="1.9"-->
+<!--                 android:layout_width="0dp"-->
+<!--                 android:layout_height="wrap_content"></TextView>-->
+
+
+
+<!--         </LinearLayout>-->
+
+     </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Pay Now"
+        android:id="@+id/paynowBtn"
+        app:cornerRadius="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"></com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>

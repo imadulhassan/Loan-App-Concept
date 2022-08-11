@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202061223421",
+    "firebase_url": "https://finaxe-money.firebaseio.com",
+    "project_id": "finaxe-money",
+    "storage_bucket": "finaxe-money.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202061223421:android:ed9d091c078a9c592a3594",
+        "android_client_info": {
+          "package_name": "com.finaxemoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202061223421-h637jlb3u57igcg8t1p8khpni597nnsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finaxemoney",
+            "certificate_hash": "a49eb8098ad03c57a66a4fa733cf71a80e155ff8"
+          }
+        },
+        {
+          "client_id": "202061223421-g1t2gmsmccumo053pqh269tnhrhf7pft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmLB6LlS2MqYx7m9EHVNbO-XJO91lmCZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202061223421-g1t2gmsmccumo053pqh269tnhrhf7pft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

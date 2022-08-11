@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.finaxemoney">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        tools:node="merge"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.Privacy"
+            android:label="@string/privacy_policy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBar"
+            ></activity>
+        <activity android:name=".activities.TermActivity"
+            android:label="@string/terms_amp_conditions"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBar"
+            />
+        <activity
+            android:name=".activities.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.OtpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Registration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBar" />
+        <activity
+            android:name=".activities.AuthLoading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AuthComplete"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GetCredit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LoanApplication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TransactionActivity"
+            android:label="@string/transction"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBar" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LoanApplicationAuth"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+<!--        &lt;!&ndash; Set color used with incoming notification messages. This is used when no color is set for the incoming-->
+<!--             notification message. See README(https://goo.gl/6BKBk7) for more. &ndash;&gt;-->
+<!--        <meta-data-->
+<!--            android:name="com.google.firebase.messaging.default_notification_color"-->
+<!--            android:resource="@color/colorAccent" />-->
+<!--        <meta-data-->
+<!--            android:name="com.google.firebase.messaging.default_notification_channel_id"-->
+<!--            android:value="@string/default_notification_channel_id" />-->
+        <service android:name=".notification.FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_h7YeeTthGCyaEv"
+            />
+
+
+    </application>
+
+</manifest>

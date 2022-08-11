@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="0dp" app:cardPreventCornerOverlap="true">
+        <RelativeLayout android:id="@+id/mainRL" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@+id/topHeader" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_verification" android:layout_centerInParent="true" android:fontFamily="@font/lato_black" />
+            </RelativeLayout>
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@+id/otpInfoText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/otp_text" android:layout_below="@+id/topHeader" android:fontFamily="@font/lato"  android:textColor="@android:color/black"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                style="@style/CustomTextInputLayoutStyle"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.0dip"
+                android:layout_marginBottom="7.0dip"
+                android:layout_below="@+id/otpInfoText">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/otpEditText"
+                    android:paddingLeft="7.0dip"
+                    android:paddingRight="7.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_marginRight="35.0dip"
+                    android:hint="@string/enter_otp"
+                    android:singleLine="true"
+                    android:fontFamily="@font/lato" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView android:visibility="gone" android:textSize="15.0sp" android:id="@+id/resendOTP" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="38.0dip" android:text="@string/get_otp_on_call" android:layout_below="@+id/editText" android:fontFamily="@font/lato_black" android:layout_alignParentEnd="true" />
+            <TextView android:textColor="#ffff0000" android:id="@+id/textError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" android:text="@string/something_wrong" android:layout_below="@+id/resendOTP" android:fontFamily="@font/lato" />
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_margin="20dp"
+                        android:layout_below="@+id/textError"
+                        android:textSize="15.0sp"
+                        app:cornerRadius="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/next"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Verify"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/lato"
+                     />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
